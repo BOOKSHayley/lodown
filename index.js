@@ -43,7 +43,7 @@ _.typeOf = function (value){
         return typeof(value);
     }
 };
-module.exports.typeOf = _.typeOf;
+//module.exports.typeOf = _.typeOf;
 
 /** _.first
 * Arguments:
@@ -80,7 +80,7 @@ _.first = function(array, num){
     }
     return arr;
 };
-module.exports.first = _.first;
+//module.exports.first = _.first;
 
 /** _.last
 * Arguments:
@@ -118,7 +118,7 @@ _.last = function(array, num){
     
     return arr;
 };
-module.exports.last = _.last;
+//module.exports.last = _.last;
 
 /** _.indexOf
 * Arguments:
@@ -145,7 +145,7 @@ _.indexOf = function(array, val){
         return -1;
     }
 };
-module.exports.indexOf = _.indexOf;
+//module.exports.indexOf = _.indexOf;
 
 /** _.contains
 * Arguments:
@@ -164,7 +164,8 @@ module.exports.indexOf = _.indexOf;
 _.contains = function(array, val){
     return (_.indexOf(array, val) === -1)? false:true; 
 };
-module.exports.contains = _.contains;
+//module.exports.contains = _.contains;
+
 /** _.each
 * Arguments:
 *   1) A collection
